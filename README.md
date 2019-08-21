@@ -10,7 +10,7 @@ $ cd ripo_docker
 
 Step 02: copy-paste the provided Dockerfile and requirements.txt in that folder
 
-Step 03: build your docker image (here named "jupyter_docker") and run it. Copy and paste the following command in your terminal: 
+Step 03: build your docker image (here named "jupyter_docker") and run processes in the isolated container. Copy and paste the following command in your terminal: 
 ```bash
 $ docker build --tag=jupyter_docker .          
 $ docker run -p  5000:5000 jupyter_docker
