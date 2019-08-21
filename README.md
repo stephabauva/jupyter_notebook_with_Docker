@@ -5,14 +5,16 @@ This repository provides the necessary files to run jupyter notebook with Ubuntu
 Step 01: create a directory that will contain the project (e.g. "ripo_docker")\
 ```bash
 $ mkdir ripo_docker
-$ $ cd ripo_docker
+$ cd ripo_docker
 ```
 
 Step 02: copy-paste the provided Dockerfile and requirements.txt in that folder
 
 Step 03: build your docker image (here named "jupyter_docker") and run it. Copy and paste the following command in your terminal: \
+```bash
 $ docker build --tag=jupyter_docker .          
 \$ docker run -p  5000:5000 jupyter_docker
+```
 
 Step 04: copy the url provided by jupyter and paste in your browser
 
