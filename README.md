@@ -13,6 +13,6 @@ $ docker build --tag=jupyter_docker .
 
 Step 04: copy the url provided by jupyter and paste in your browser
 
-Step 05: enjpy jupyter :)
+Step 05: enjoy jupyter :)
 
 Note: the requirements.txt contains Pandas, Numpy, jupyter and Scikit-learn
